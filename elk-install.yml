@@ -1,6 +1,6 @@
 ---
 - name: Configure Elk VM with Docker
-  hosts: elkservers
+  hosts: elk
   remote_user: elk
   become: true
   tasks:
