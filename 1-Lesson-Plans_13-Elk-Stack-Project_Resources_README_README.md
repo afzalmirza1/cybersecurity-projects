@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 **Note**: The following image link needs to be updated. Replace `diagram_filename.png` with the name of your diagram image file.  
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Network Diagram](https://github.com/afzalmirza1/cybersecurity-projects/blob/main/Screen%20Shot%202020-11-25%20at%204.00.40%20PM.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -35,10 +35,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box | Gateway  | 10.1.0.12   | Linux            |
+| VM1     |          |  10.1.0.13          |                  |
+| VM2    |          |   10.1.0.14         |                  |
+| ELK     |          |  10.0.0.4          |                  |
 
 ### Access Policies
 
